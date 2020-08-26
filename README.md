@@ -142,16 +142,13 @@ These results satisfy the minimum requests for the project completion.
 ### 1. Chosen images 
 Here are five German traffic signs that I found on the web:
 
-![](./test_new/img_1.jpg)
-
-![](./test_new/img_2.jpg)
-
-![](./test_new/img_3.jpg)
-
-![](./test_new/img_4.jpg)
-
-![](./test_new/img_5.jpg)
-
+<p float="left">
+  <img src="./test_new/img1.jpg" width="100" />
+  <img src="./test_new/img2.jpg" width="100" /> 
+  <img src="./test_new/img3.jpg" width="100" />
+  <img src="./test_new/img4.jpg" width="100" />
+  <img src="./test_new/img5.jpg" width="100" />
+</p>
      
 In these images, I picked signs that might have some additional difficulty in the prediction.
 For example, the third image 'Go straight or left' is taken from a steep angle.
