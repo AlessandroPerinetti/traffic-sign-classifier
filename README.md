@@ -13,9 +13,9 @@ The steps of this project are the following:
 
 ## Dependencies
 
-The project environment can be created with [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit)
+The project environment can be created with [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit).
 
-The used dataset can be downloaded [here](https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/traffic-signs-data.zip)
+The used dataset can be downloaded [here](https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/traffic-signs-data.zip).
 
 ## Data Set Summary & Exploration
 ### 1. Basic summary of the data set. 
@@ -40,10 +40,15 @@ In order to have a better idea of the training set, for each label, I printed ou
 ### 1. Image data preprocess 
 
 As a first step, I converted the image to grayscale. I decided to grayscale them by simply averaging the Red Green and Blue values of the original image.
+
 After, I normalized the images in order to have the grayscale values inside the range [-1, 1].
+
 Keeping the gray values inside this range instead of [0, 255] is fundamental for the training operation in order to get good performances of the model.
+
 Then I shuffled the data using the specific function.
+
 Note: in the first project submission, I decided to omit the grayscaling process since in terms of accuracy it does not give us better result.
+
 Thanks to the reviewer I realized that this method helps to drastically reduce the image dimension and the computational load. In fact, keeping approximately the same accuracy, the images to be processed have 1/3 of the original RGB image dimension. 
 
 ### 2. Model architecture
