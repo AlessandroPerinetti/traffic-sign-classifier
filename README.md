@@ -13,7 +13,7 @@ The steps of this project are the following:
 
 ## Dependencies
 
-The project environment can be created with [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit).
+The project environment is created with [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit).
 
 The used dataset can be downloaded [here](https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/traffic-signs-data.zip).
 
